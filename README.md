@@ -18,10 +18,13 @@ VLTest is a black-box testing framework for vision–language models that system
 # Overview
 ## Attack Approach
 
-- [ALERT](https://github.com/soarsmu/attack-pretrain-models-of-code/)
-- [BeamATTACK](https://github.com/CGCL-codes/Attack_PTMC)
-- [CODA](https://github.com/tianzhaotju/CODA)
-- [ITGen](https://github.com/unknownhl/ITGen)
+- [VQGAN](https://github.com/CompVis/taming-transformers)
+- [ViLT_COCO](https://huggingface.co/dandelin/vilt-b32-finetuned-coco)
+- [BLIP](https://huggingface.co/Salesforce/blip-itm-base-coco)
+- [PaliGemma](https://huggingface.co/google/paligemma-3b-ft-vqav2-224)
+- [BLIP-2](https://huggingface.co/Salesforce/blip2-flan-t5-xl)
+- [BEiT-3](https://github.com/microsoft/unilm/tree/master/beit3)
+- [ViLT_NLVR2](https://huggingface.co/dandelin/vilt-b32-finetuned-nlvr2)
 
 ## Folder Structure
 ```
