@@ -13,7 +13,6 @@ VLTest is a black-box testing framework for vision–language models that system
     - [RQ1: Exploration Capability Analysis](#rq1-exploration-capability-analysis)
     - [RQ2: Semantic Validity (Human Evaluation)](#rq2-semantic-validity-human-evaluation)
     - [RQ3: Failure Discovery Effectiveness and Efficiency](#rq3-failure-discovery-effectiveness-and-efficiency)
-    - [Hyperparameter Sensitivity Analysis](#hyperparameter-sensitivity-analysis)
 
 
 # Overview
