@@ -103,7 +103,14 @@ VLTest is a black-box testing framework for vision–language models that system
 
 
 ## Dataset and Model
-All datasets and fine-tuned model checkpoints used in our experiments are publicly available at [Figshare](https://doi.org/10.6084/m9.figshare.30598091.v1) to facilitate replication and further research.
+We evaluate VLTest on three representative vision–language tasks, covering image–text matching, visual reasoning, and visual question answering. All models under test are publicly available, while VQGAN is used solely as a visual generator to support discrete latent-space mutation and is not treated as a model under test.
+[VQGAN](https://github.com/CompVis/taming-transformers)
+| Task | Dataset | Model |
+|------|---------|-------|
+| Image–Text Matching | MSCOCO | [ViLT_COCO](https://huggingface.co/dandelin/vilt-b32-finetuned-coco) & [BLIP](https://huggingface.co/Salesforce/blip-itm-base-coco)|
+| Visual Reasoning   | NLVR2  | [PaliGemma](https://huggingface.co/google/paligemma-3b-ft-vqav2-224) & [BLIP-2](https://huggingface.co/Salesforce/blip2-flan-t5-xl)|
+| Visual Question Answering | VQA v2 | [ViLT_NLVR2](https://huggingface.co/dandelin/vilt-b32-finetuned-nlvr2) & [BEiT-3](https://github.com/microsoft/unilm/tree/master/beit3)|
+
 
 # Experiments
 ***We use CodeBERT - Clone Detection as an example to demonstrate how all experiment scripts are executed.***
